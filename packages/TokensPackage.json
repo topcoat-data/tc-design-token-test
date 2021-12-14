@@ -1,0 +1,351 @@
+{
+  "global": {},
+  "Dark": {
+    "Primary": {
+      "Orange 900": {
+        "value": "#78350f",
+        "type": "color"
+      },
+      "Orange 800": {
+        "value": "#92400e",
+        "type": "color"
+      },
+      "Orange 700": {
+        "value": "#b45309",
+        "type": "color"
+      },
+      "Orange 600": {
+        "value": "#d97706",
+        "type": "color"
+      },
+      "Orange 500": {
+        "value": "#f59e0b",
+        "type": "color"
+      },
+      "Orange 400": {
+        "value": "#fbbf24",
+        "type": "color"
+      },
+      "Orange 300": {
+        "value": "#fcd34d",
+        "type": "color"
+      },
+      "Orange 200": {
+        "value": "#fde68a",
+        "type": "color"
+      },
+      "Orange 100": {
+        "value": "#fef3c7",
+        "type": "color"
+      },
+      "Orange 50": {
+        "value": "#fffbeb",
+        "type": "color"
+      }
+    },
+    "Background": {
+      "Dark 900": {
+        "value": "#131825",
+        "type": "color"
+      }
+    },
+    "borderRadius": {
+      "small": {
+        "value": "4",
+        "type": "borderRadius"
+      },
+      "medium": {
+        "value": "$borderRadius.small * 2",
+        "type": "borderRadius"
+      },
+      "large": {
+        "value": "{borderRadius.medium} * 4",
+        "type": "borderRadius"
+      },
+      "off": {
+        "value": "0",
+        "type": "borderRadius"
+      }
+    },
+    "Title": {
+      "value": {
+        "fontFamily": "{fontFamily.Secondary}",
+        "fontWeight": "Regular",
+        "lineHeight": "AUTO",
+        "fontSize": "34",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "textDecoration": "none",
+        "textCase": "none"
+      },
+      "type": "typography"
+    },
+    "Heading 1": {
+      "value": {
+        "fontFamily": "$fontFamily.Secondary",
+        "fontWeight": "Regular",
+        "lineHeight": "AUTO",
+        "fontSize": "24",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "textDecoration": "none",
+        "textCase": "none"
+      },
+      "type": "typography"
+    },
+    "SubHeading 1": {
+      "value": {
+        "fontFamily": "$fontFamily.Primary",
+        "fontWeight": "Regular",
+        "lineHeight": "AUTO",
+        "fontSize": "18",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "textDecoration": "none",
+        "textCase": "none"
+      },
+      "type": "typography"
+    },
+    "SubHeading 2": {
+      "value": {
+        "fontFamily": "$fontFamily.Primary",
+        "fontWeight": "Regular",
+        "lineHeight": "20",
+        "fontSize": "14",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "textDecoration": "none",
+        "textCase": "none"
+      },
+      "type": "typography"
+    },
+    "Subtitle": {
+      "value": {
+        "fontFamily": "$fontFamily.Primary",
+        "fontWeight": "Light",
+        "lineHeight": "AUTO",
+        "fontSize": "16",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "textDecoration": "none",
+        "textCase": "none"
+      },
+      "type": "typography"
+    },
+    "Foreground": {
+      "value": "hsla(100,100%,100%,1)",
+      "type": "color"
+    },
+    "fontFamily": {
+      "Primary": {
+        "value": "Inter",
+        "type": "fontFamilies"
+      },
+      "Secondary": {
+        "value": "Atomic Age",
+        "type": "fontFamilies"
+      }
+    },
+    "Body": {
+      "value": {
+        "fontFamily": "Inter",
+        "fontWeight": "Regular",
+        "lineHeight": "AUTO",
+        "fontSize": "14",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "textDecoration": "none",
+        "textCase": "none"
+      },
+      "type": "typography"
+    }
+  },
+  "Vuetify": {
+    "Primary": {
+      "Blue 900": {
+        "value": "#06102b",
+        "type": "color"
+      },
+      "Blue 800": {
+        "value": "#0c1f56",
+        "type": "color"
+      },
+      "Blue 700": {
+        "value": "#112f82",
+        "type": "color"
+      },
+      "Blue 600": {
+        "value": "#173ead",
+        "type": "color"
+      },
+      "Blue 500": {
+        "value": "#3460dc",
+        "type": "color"
+      },
+      "Blue 400": {
+        "value": "#3460DC",
+        "type": "color"
+      },
+      "Blue 300": {
+        "value": "#6183e4",
+        "type": "color"
+      },
+      "Blue 200": {
+        "value": "#8ea7ec",
+        "type": "color"
+      },
+      "Blue 100": {
+        "value": "#bbcaf3",
+        "type": "color"
+      },
+      "Blue 50": {
+        "value": "#e8edfb",
+        "type": "color"
+      }
+    },
+    "Background": {
+      "Dark 900": {
+        "value": "#131825",
+        "type": "color"
+      }
+    },
+    "borderRadius": {
+      "small": {
+        "value": "4",
+        "type": "borderRadius"
+      },
+      "medium": {
+        "value": "$borderRadius.small * 2",
+        "type": "borderRadius"
+      },
+      "large": {
+        "value": "{borderRadius.medium} * 4",
+        "type": "borderRadius"
+      },
+      "off": {
+        "value": "0",
+        "type": "borderRadius"
+      }
+    },
+    "Title": {
+      "value": {
+        "fontFamily": "{fontFamily.Secondary}",
+        "fontWeight": "Regular",
+        "lineHeight": "AUTO",
+        "fontSize": "34",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "textDecoration": "none",
+        "textCase": "none"
+      },
+      "type": "typography"
+    },
+    "Heading 1": {
+      "value": {
+        "fontFamily": "$fontFamily.Secondary",
+        "fontWeight": "Regular",
+        "lineHeight": "AUTO",
+        "fontSize": "24",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "textDecoration": "none",
+        "textCase": "none"
+      },
+      "type": "typography"
+    },
+    "SubHeading 1": {
+      "value": {
+        "fontFamily": "Inter",
+        "fontWeight": "Regular",
+        "lineHeight": "AUTO",
+        "fontSize": "18",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "textDecoration": "none",
+        "textCase": "none"
+      },
+      "type": "typography"
+    },
+    "SubHeading 2": {
+      "value": {
+        "fontFamily": "$fontFamily.Secondary",
+        "fontWeight": "Regular",
+        "lineHeight": "20",
+        "fontSize": "14",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "textDecoration": "none",
+        "textCase": "none"
+      },
+      "type": "typography"
+    },
+    "Subtitle": {
+      "value": {
+        "fontFamily": "Inter",
+        "fontWeight": "Light",
+        "lineHeight": "24",
+        "fontSize": "16",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "textDecoration": "none",
+        "textCase": "none"
+      },
+      "type": "typography"
+    },
+    "Foreground": {
+      "value": "hsla(100,100%,100%,1)",
+      "type": "color"
+    },
+    "fontFamily": {
+      "Primary": {
+        "value": "Fredoka One",
+        "type": "fontFamilies"
+      },
+      "Secondary": {
+        "value": "Fira Sans",
+        "type": "fontFamilies"
+      }
+    },
+    "Body": {
+      "value": {
+        "fontFamily": "$fontFamily.Primary",
+        "fontWeight": "Regular",
+        "lineHeight": "18",
+        "fontSize": "13",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "textDecoration": "none",
+        "textCase": "none"
+      },
+      "type": "typography"
+    },
+    "Btn-fill": {
+      "Default": {
+        "value": "#f5f5f5",
+        "type": "color"
+      },
+      "Primary": {
+        "value": "#325fdc",
+        "type": "color"
+      },
+      "Secondary": {
+        "value": "#10b77f",
+        "type": "color"
+      },
+      "Tertiary": {
+        "value": "#ff5252",
+        "type": "color"
+      }
+    },
+    "Input-fill": {
+      "Default": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "#1f1f1f",
+        "type": "color"
+      }
+    }
+  }
+}
