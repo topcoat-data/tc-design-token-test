@@ -158,6 +158,12 @@
         "textCase": "none"
       },
       "type": "typography"
+    },
+    "btn-fill": {
+      "default": {
+        "value": "#f5f5f5",
+        "type": "color"
+      }
     }
   },
   "Vuetify": {
