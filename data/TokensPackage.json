@@ -1,7 +1,7 @@
 {
   "global": {},
   "Dark": {
-    "Primary": {
+    "primary": {
       "orange-900": {
         "value": "#78350f",
         "type": "color"
