@@ -2,50 +2,54 @@
   "global": {},
   "Dark": {
     "Primary": {
-      "Orange 900": {
+      "Orange-900": {
         "value": "#78350f",
         "type": "color"
       },
-      "Orange 800": {
+      "Orange-800": {
         "value": "#92400e",
         "type": "color"
       },
-      "Orange 700": {
+      "Orange-700": {
         "value": "#b45309",
         "type": "color"
       },
-      "Orange 600": {
+      "Orange-600": {
         "value": "#d97706",
         "type": "color"
       },
-      "Orange 500": {
+      "Orange-500": {
         "value": "#f59e0b",
         "type": "color"
       },
-      "Orange 400": {
+      "Orange-400": {
         "value": "#fbbf24",
         "type": "color"
       },
-      "Orange 300": {
+      "Orange-300": {
         "value": "#fcd34d",
         "type": "color"
       },
-      "Orange 200": {
+      "Orange-200": {
         "value": "#fde68a",
         "type": "color"
       },
-      "Orange 100": {
+      "Orange-100": {
         "value": "#fef3c7",
         "type": "color"
       },
-      "Orange 50": {
+      "Orange-50": {
         "value": "#fffbeb",
         "type": "color"
       }
     },
-    "Background": {
-      "Dark 900": {
-        "value": "#131825",
+    "Fundamentals": {
+      "Background": {
+        "value": "hsl(223,32%,11%)",
+        "type": "color"
+      },
+      "Foreground": {
+        "value": "hsla(100,100%,100%,1)",
         "type": "color"
       }
     },
@@ -132,10 +136,6 @@
       },
       "type": "typography"
     },
-    "Foreground": {
-      "value": "hsla(100,100%,100%,1)",
-      "type": "color"
-    },
     "fontFamily": {
       "Primary": {
         "value": "Inter",
@@ -163,6 +163,24 @@
       "default": {
         "value": "#f5f5f5",
         "type": "color"
+      }
+    },
+    "Text": {
+      "Default": {
+        "value": "$Fundamentals.Foreground",
+        "type": "color"
+      }
+    },
+    "input": {
+      "default": {
+        "fill": {
+          "value": "$Fundamentals.Background",
+          "type": "color"
+        },
+        "border": {
+          "value": "$Primary.Orange-900",
+          "type": "color"
+        }
       }
     }
   },
@@ -347,15 +365,17 @@
       "Default": {
         "value": "#ffffff",
         "type": "color"
-      },
-      "Disabled": {
-        "value": "#1f1f1f",
-        "type": "color"
       }
     },
     "Tertiary": {
       "value": "Inter",
       "type": "fontFamilies"
+    },
+    "Text": {
+      "Default": {
+        "value": "$Fundamentals.Foreground",
+        "type": "color"
+      }
     }
   }
 }
