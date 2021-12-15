@@ -283,7 +283,7 @@
     },
     "subheading-1": {
       "value": {
-        "fontFamily": "Inter",
+        "fontFamily": "$fontFamily.Primary",
         "fontWeight": "Regular",
         "lineHeight": "AUTO",
         "fontSize": "18",
