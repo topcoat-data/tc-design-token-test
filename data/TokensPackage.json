@@ -110,7 +110,7 @@
       },
       "type": "typography"
     },
-    "SubHeading 2": {
+    "subheading-2": {
       "value": {
         "fontFamily": "$fontFamily.primary",
         "fontWeight": "Regular",
@@ -123,7 +123,7 @@
       },
       "type": "typography"
     },
-    "Subtitle": {
+    "subtitle": {
       "value": {
         "fontFamily": "$fontFamily.primary",
         "fontWeight": "Light",
@@ -321,7 +321,7 @@
       "type": "typography"
     },
     "fontFamily": {
-      "Primary": {
+      "primary": {
         "value": "Fredoka One",
         "type": "fontFamilies"
       },
