@@ -168,50 +168,54 @@
   },
   "Vuetify": {
     "Primary": {
-      "Blue 900": {
+      "Blue-900": {
         "value": "#06102b",
         "type": "color"
       },
-      "Blue 800": {
+      "Blue-800": {
         "value": "#0c1f56",
         "type": "color"
       },
-      "Blue 700": {
+      "Blue-700": {
         "value": "#112f82",
         "type": "color"
       },
-      "Blue 600": {
+      "Blue-600": {
         "value": "#173ead",
         "type": "color"
       },
-      "Blue 500": {
+      "Blue-500": {
         "value": "#3460dc",
         "type": "color"
       },
-      "Blue 400": {
+      "Blue-400": {
         "value": "#3460DC",
         "type": "color"
       },
-      "Blue 300": {
+      "Blue-300": {
         "value": "#6183e4",
         "type": "color"
       },
-      "Blue 200": {
+      "Blue-200": {
         "value": "#8ea7ec",
         "type": "color"
       },
-      "Blue 100": {
+      "Blue-100": {
         "value": "#bbcaf3",
         "type": "color"
       },
-      "Blue 50": {
+      "Blue-50": {
         "value": "#e8edfb",
         "type": "color"
       }
     },
-    "Background": {
-      "Dark 900": {
-        "value": "#131825",
+    "Fundamentals": {
+      "Background": {
+        "value": "hsl(100,100%,100%)",
+        "type": "color"
+      },
+      "Foreground": {
+        "value": "$Primary.Blue-900",
         "type": "color"
       }
     },
@@ -297,10 +301,6 @@
         "textCase": "none"
       },
       "type": "typography"
-    },
-    "Foreground": {
-      "value": "hsla(100,100%,100%,1)",
-      "type": "color"
     },
     "fontFamily": {
       "Primary": {
