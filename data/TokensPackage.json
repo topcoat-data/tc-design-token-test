@@ -283,7 +283,7 @@
     },
     "subheading-1": {
       "value": {
-        "fontFamily": "$fontFamily.Primary",
+        "fontFamily": "$fontFamily.secondary",
         "fontWeight": "Regular",
         "lineHeight": "AUTO",
         "fontSize": "18",
