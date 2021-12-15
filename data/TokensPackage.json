@@ -161,7 +161,7 @@
     },
     "btn-fill": {
       "default": {
-        "value": "#f5f5f5",
+        "value": "$Primary.orange-500",
         "type": "color"
       }
     },
