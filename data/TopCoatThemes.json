@@ -1566,7 +1566,7 @@
             "fontFamily": "{fontFamilies.primary}",
             "fontWeight": "{fontWeights.semibold}",
             "lineHeight": "{lineHeights.40}",
-            "fontSize": "$fontSize.10",
+            "fontSize": "$fontSize.12 * 0.85",
             "letterSpacing": "$letterSpacing.0",
             "paragraphSpacing": "$paragraphSpacing.0",
             "textCase": "$textCase.none",
@@ -2319,15 +2319,13 @@
       "rounded": {
         "value": "9999",
         "type": "borderRadius"
+      },
+      "theme": {
+        "default": {
+          "value": "$radius.sm",
+          "type": "borderRadius"
+        }
       }
-    },
-    "sm": {
-      "value": "16",
-      "type": "spacing"
-    },
-    "xsm": {
-      "value": "8",
-      "type": "spacing"
     }
   }
 }
