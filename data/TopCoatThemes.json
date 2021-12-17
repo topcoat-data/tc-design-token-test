@@ -1017,6 +1017,10 @@
             "value": "$colors.global.amber.500",
             "type": "color"
           },
+          "rose": {
+            "value": "$colors.global.rose.500",
+            "type": "color"
+          },
           "grey": {
             "50": {
               "value": "$colors.global.gray.50",
@@ -1058,10 +1062,6 @@
               "value": "$colors.global.gray.900",
               "type": "color"
             }
-          },
-          "rose": {
-            "value": "$colors.global.rose.500",
-            "type": "color"
           }
         },
         "label": {
