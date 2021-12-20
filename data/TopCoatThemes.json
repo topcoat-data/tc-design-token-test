@@ -1064,7 +1064,7 @@
             }
           }
         },
-        "label": {
+        "text": {
           "light": {
             "primary": {
               "value": "$colors.theme.white.100",
