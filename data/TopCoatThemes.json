@@ -938,20 +938,6 @@
       "theme": {
         "primary": {
           "primary": {
-            "value": "$colors.global.fuchsia.500",
-            "type": "color"
-          },
-          "light": {
-            "value": "$colors.global.fuchsia.400",
-            "type": "color"
-          },
-          "dark": {
-            "value": "$colors.global.fuchsia.600",
-            "type": "color"
-          }
-        },
-        "secondary": {
-          "secondary": {
             "value": "$colors.global.blue.500",
             "type": "color"
           },
@@ -961,6 +947,20 @@
           },
           "dark": {
             "value": "$colors.global.blue.600",
+            "type": "color"
+          }
+        },
+        "secondary": {
+          "secondary": {
+            "value": "$colors.global.amber.400",
+            "type": "color"
+          },
+          "light": {
+            "value": "$colors.global.amber.300",
+            "type": "color"
+          },
+          "dark": {
+            "value": "$colors.global.amber.500",
             "type": "color"
           }
         },
@@ -1013,8 +1013,8 @@
             "value": "$colors.global.emerald.500",
             "type": "color"
           },
-          "amber": {
-            "value": "$colors.global.amber.500",
+          "fuchsia": {
+            "value": "$colors.global.fuchsia.500",
             "type": "color"
           },
           "rose": {
