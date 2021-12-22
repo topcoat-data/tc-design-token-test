@@ -2135,7 +2135,25 @@
         "type": "opacity"
       },
       "opacity-100": {
-        "value": "0.1",
+        "value": "1",
+        "type": "opacity"
+      }
+    },
+    "themeRradius": {
+      "Default": {
+        "value": "$borderRadius.rounded-lg",
+        "type": "borderRadius"
+      }
+    },
+    "themeBorderWidth": {
+      "default": {
+        "value": "$borderWidth.border",
+        "type": "borderWidth"
+      }
+    },
+    "themeOpacity": {
+      "Default": {
+        "value": "$opacity.opacity-100",
         "type": "opacity"
       }
     }
