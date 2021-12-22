@@ -2139,5 +2139,13 @@
         "type": "opacity"
       }
     }
+  },
+  "new theme": {
+    "fontFamilies": {
+      "primary": {
+        "value": "Montserrat",
+        "type": "fontFamilies"
+      }
+    }
   }
 }
