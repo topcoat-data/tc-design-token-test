@@ -2163,10 +2163,32 @@
       "theme": {
         "primary": {
           "primary": {
-            "value": "#fffff",
+            "value": "#84cc16",
+            "type": "color"
+          }
+        },
+        "secondary": {
+          "secondary": {
+            "value": "hsl(0, 72%, 51%)",
             "type": "color"
           }
         }
+      }
+    },
+    "random": {
+      "value": "#000000",
+      "type": "color"
+    },
+    "themeRradius": {
+      "Default": {
+        "value": "0",
+        "type": "borderRadius"
+      }
+    },
+    "themeBorderWidth": {
+      "default": {
+        "value": "2",
+        "type": "borderWidth"
       }
     }
   }
