@@ -1344,7 +1344,7 @@
                 "type": "color"
               },
               "disabled": {
-                "value": "rgb(0,0,0%)",
+                "value": "rgba($colors.theme.button.secondary.fill.default, 0.75)",
                 "type": "color"
               }
             },
@@ -1362,11 +1362,15 @@
                 "type": "color"
               },
               "hover": {
-                "value": "$colors.theme.system.grey.50",
+                "value": "$colors.theme.system.grey.100",
                 "type": "color"
               },
               "focus": {
-                "value": "$colors.theme.system.grey.200",
+                "value": "$colors.theme.system.grey.300",
+                "type": "color"
+              },
+              "disabled": {
+                "value": "rgba($colors.theme.button.tertiary.fill.default, 0.75)",
                 "type": "color"
               }
             },
