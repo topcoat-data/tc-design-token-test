@@ -1326,6 +1326,10 @@
               "default": {
                 "value": "$colors.theme.text.light.primary",
                 "type": "color"
+              },
+              "alternative": {
+                "value": "$colors.theme.text.dark.primary",
+                "type": "color"
               }
             }
           },
@@ -1352,6 +1356,10 @@
               "default": {
                 "value": "$colors.theme.primary.default",
                 "type": "color"
+              },
+              "alternative": {
+                "value": "$colors.global.coolgray.400",
+                "type": "color"
               }
             }
           },
@@ -1377,6 +1385,10 @@
             "text": {
               "default": {
                 "value": "$colors.theme.text.dark.primary",
+                "type": "color"
+              },
+              "alternative": {
+                "value": "$colors.global.coolgray.400",
                 "type": "color"
               }
             }
