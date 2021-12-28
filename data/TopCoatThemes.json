@@ -2344,7 +2344,11 @@
         "value": "$opacity.opacity-100",
         "type": "opacity"
       },
-      "modalOverlay": {
+      "modalOverlayBG": {
+        "value": "$opacity.opacity-50",
+        "type": "opacity"
+      },
+      "secondary": {
         "value": "$opacity.opacity-50",
         "type": "opacity"
       }
