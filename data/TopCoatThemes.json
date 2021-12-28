@@ -1177,7 +1177,7 @@
           },
           "dark": {
             "primary": {
-              "value": "{colors.global.dark.100}",
+              "value": "{colors.global.dark.88}",
               "type": "color"
             },
             "secondary": {
@@ -1304,6 +1304,56 @@
           "focus-highlight": {
             "value": "$colors.global.yellow.500",
             "type": "color"
+          }
+        },
+        "picker": {
+          "field": {
+            "fill": {
+              "null": {
+                "value": "hsla(100,0%,0%,0%)",
+                "type": "color"
+              },
+              "solid": {
+                "value": "{colors.global.light.100}",
+                "type": "color"
+              }
+            },
+            "border": {
+              "focus": {
+                "value": "{colors.theme.primary.default}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{colors.global.dark.24}",
+                "type": "color"
+              },
+              "error": {
+                "value": "{colors.theme.system.red}",
+                "type": "color"
+              },
+              "default": {
+                "value": "{colors.global.dark.16}",
+                "type": "color"
+              }
+            },
+            "text": {
+              "focus": {
+                "value": "{colors.theme.primary.default}",
+                "type": "color"
+              },
+              "default": {
+                "value": "{colors.theme.text.dark.primary}",
+                "type": "color"
+              },
+              "soft": {
+                "value": "{colors.theme.text.dark.secondary}",
+                "type": "color"
+              },
+              "error": {
+                "value": "{colors.theme.system.red}",
+                "type": "color"
+              }
+            }
           }
         }
       }
@@ -2371,9 +2421,9 @@
         "md": {
           "value": {
             "fontFamily": "$fontFamilies.primary",
-            "fontWeight": "$fontWeights.font-semibold",
+            "fontWeight": "{fontWeights.theme.buttons.default}",
             "lineHeight": "$lineHeights.leading-normal",
-            "fontSize": "fontSize.theme.button.md",
+            "fontSize": "{fontSize.theme.buttons.md}",
             "letterSpacing": "$letterSpacing.2",
             "paragraphSpacing": "$paragraphSpacing.0",
             "textDecoration": "$textDecoration.none",
