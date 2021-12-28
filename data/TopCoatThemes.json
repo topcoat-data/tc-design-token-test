@@ -1461,7 +1461,7 @@
         "value": "Extra Bold",
         "type": "fontWeights"
       },
-      "font-normal": {
+      "font-regular": {
         "value": "Regular",
         "type": "fontWeights"
       },
