@@ -1234,7 +1234,7 @@
                 "type": "color"
               },
               "alternative": {
-                "value": "$colors.theme.text.dark.primary",
+                "value": "$colors.global.light.72",
                 "type": "color"
               }
             }
@@ -2251,7 +2251,7 @@
         "type": "opacity"
       }
     },
-    "themeRradius": {
+    "themeRadius": {
       "Default": {
         "value": "$borderRadius.rounded-lg",
         "type": "borderRadius"
@@ -3760,7 +3760,7 @@
     },
     "fontFamilies": {
       "primary": {
-        "value": "Inter",
+        "value": "Atomic Age",
         "type": "fontFamilies"
       }
     },
@@ -4388,6 +4388,51 @@
             "textDecoration": "$textDecoration.none"
           },
           "type": "typography"
+        }
+      },
+      "buttons": {
+        "labels": {
+          "primary": {
+            "sm": {
+              "value": {
+                "fontFamily": "$fontFamilies.primary",
+                "fontWeight": "$fontWeights.font-normal",
+                "lineHeight": "$lineHeights.leading-normal",
+                "fontSize": "$fontSize.text-xs",
+                "letterSpacing": "$letterSpacing.2",
+                "paragraphSpacing": "$paragraphSpacing.0",
+                "textDecoration": "$textDecoration.none",
+                "textCase": "$textCase.none"
+              },
+              "type": "typography"
+            },
+            "md": {
+              "value": {
+                "fontFamily": "$fontFamilies.primary",
+                "fontWeight": "$fontWeights.font-normal",
+                "lineHeight": "$lineHeights.leading-normal",
+                "fontSize": "$fontSize.text-sm",
+                "letterSpacing": "$letterSpacing.2",
+                "paragraphSpacing": "$paragraphSpacing.0",
+                "textDecoration": "$textDecoration.none",
+                "textCase": "$textCase.none"
+              },
+              "type": "typography"
+            },
+            "lg": {
+              "value": {
+                "fontFamily": "$fontFamilies.primary",
+                "fontWeight": "$fontWeights.font-normal",
+                "lineHeight": "$lineHeights.leading-normal",
+                "fontSize": "$fontSize.text-base",
+                "letterSpacing": "$letterSpacing.2",
+                "paragraphSpacing": "$paragraphSpacing.0",
+                "textDecoration": "$textDecoration.none",
+                "textCase": "$textCase.none"
+              },
+              "type": "typography"
+            }
+          }
         }
       }
     },
