@@ -3,98 +3,10 @@
     "colors": {
       "global": {
         "black": {
-          "2": {
-            "value": "rgba({colors.global.black.100} , 0.02)",
-            "type": "color"
-          },
-          "4": {
-            "value": "rgba({colors.global.black.100} , 0.04)",
-            "type": "color"
-          },
-          "8": {
-            "value": "rgba({colors.global.black.100} , 0.08)",
-            "type": "color"
-          },
-          "16": {
-            "value": "rgba({colors.global.black.100} , 0.16)",
-            "type": "color"
-          },
-          "24": {
-            "value": "rgba({colors.global.black.100} , 0.24)",
-            "type": "color"
-          },
-          "32": {
-            "value": "rgba({colors.global.black.100} , 0.32)",
-            "type": "color"
-          },
-          "48": {
-            "value": "rgba({colors.global.black.100} , 0.48)",
-            "type": "color"
-          },
-          "64": {
-            "value": "rgba({colors.global.black.100} , 0.64)",
-            "type": "color"
-          },
-          "72": {
-            "value": "rgba({colors.global.black.100} , 0.72)",
-            "type": "color"
-          },
-          "88": {
-            "value": "rgba({colors.global.black.100} , 0.88)",
-            "type": "color"
-          },
-          "100": {
-            "value": "$colors.global.black",
-            "type": "color"
-          },
           "value": "hsl(0,0%,0%)",
           "type": "color"
         },
         "white": {
-          "2": {
-            "value": "rgba({colors.global.white.100} , 0.02)",
-            "type": "color"
-          },
-          "4": {
-            "value": "rgba({colors.global.white.100} , 0.04)",
-            "type": "color"
-          },
-          "8": {
-            "value": "rgba({colors.global.white.100} , 0.08)",
-            "type": "color"
-          },
-          "16": {
-            "value": "rgba({colors.global.white.100} , 0.16)",
-            "type": "color"
-          },
-          "24": {
-            "value": "rgba({colors.global.white.100} , 0.24)",
-            "type": "color"
-          },
-          "32": {
-            "value": "rgba({colors.global.white.100} , 0.32)",
-            "type": "color"
-          },
-          "48": {
-            "value": "rgba({colors.global.white.100} , 0.48)",
-            "type": "color"
-          },
-          "64": {
-            "value": "rgba({colors.global.white.100} , 0.64)",
-            "type": "color"
-          },
-          "72": {
-            "value": "rgba({colors.global.white.100} , 0.72)",
-            "type": "color"
-          },
-          "88": {
-            "value": "rgba({colors.global.white.100} , 0.88)",
-            "type": "color"
-          },
-          "100": {
-            "value": "$colors.global.white",
-            "type": "color"
-          },
           "value": "hsl(0,0%,100%)",
           "type": "color"
         },
@@ -2411,98 +2323,10 @@
     "colors": {
       "global": {
         "black": {
-          "2": {
-            "value": "rgba({colors.global.black.100} , 0.02)",
-            "type": "color"
-          },
-          "4": {
-            "value": "rgba({colors.global.black.100} , 0.04)",
-            "type": "color"
-          },
-          "8": {
-            "value": "rgba({colors.global.black.100} , 0.08)",
-            "type": "color"
-          },
-          "16": {
-            "value": "rgba({colors.global.black.100} , 0.16)",
-            "type": "color"
-          },
-          "24": {
-            "value": "rgba({colors.global.black.100} , 0.24)",
-            "type": "color"
-          },
-          "32": {
-            "value": "rgba({colors.global.black.100} , 0.32)",
-            "type": "color"
-          },
-          "48": {
-            "value": "rgba({colors.global.black.100} , 0.48)",
-            "type": "color"
-          },
-          "64": {
-            "value": "rgba({colors.global.black.100} , 0.64)",
-            "type": "color"
-          },
-          "72": {
-            "value": "rgba({colors.global.black.100} , 0.72)",
-            "type": "color"
-          },
-          "88": {
-            "value": "rgba({colors.global.black.100} , 0.88)",
-            "type": "color"
-          },
-          "100": {
-            "value": "$colors.global.black",
-            "type": "color"
-          },
           "value": "hsl(0,0%,0%)",
           "type": "color"
         },
         "white": {
-          "2": {
-            "value": "rgba({colors.global.white.100} , 0.02)",
-            "type": "color"
-          },
-          "4": {
-            "value": "rgba({colors.global.white.100} , 0.04)",
-            "type": "color"
-          },
-          "8": {
-            "value": "rgba({colors.global.white.100} , 0.08)",
-            "type": "color"
-          },
-          "16": {
-            "value": "rgba({colors.global.white.100} , 0.16)",
-            "type": "color"
-          },
-          "24": {
-            "value": "rgba({colors.global.white.100} , 0.24)",
-            "type": "color"
-          },
-          "32": {
-            "value": "rgba({colors.global.white.100} , 0.32)",
-            "type": "color"
-          },
-          "48": {
-            "value": "rgba({colors.global.white.100} , 0.48)",
-            "type": "color"
-          },
-          "64": {
-            "value": "rgba({colors.global.white.100} , 0.64)",
-            "type": "color"
-          },
-          "72": {
-            "value": "rgba({colors.global.white.100} , 0.72)",
-            "type": "color"
-          },
-          "88": {
-            "value": "rgba({colors.global.white.100} , 0.88)",
-            "type": "color"
-          },
-          "100": {
-            "value": "$colors.global.white",
-            "type": "color"
-          },
           "value": "hsl(0,0%,100%)",
           "type": "color"
         },
