@@ -2319,6 +2319,14 @@
       "Default": {
         "value": "$borderRadius.rounded-lg",
         "type": "borderRadius"
+      },
+      "moreRounded": {
+        "value": "$themeRadius.Default * 1.5",
+        "type": "borderRadius"
+      },
+      "lessRounded": {
+        "value": "$themeRadius.Default / 2",
+        "type": "borderRadius"
       }
     },
     "themeBorderWidth": {
