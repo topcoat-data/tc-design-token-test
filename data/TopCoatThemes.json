@@ -1486,9 +1486,23 @@
         "type": "fontWeights"
       },
       "theme": {
-        "button": {
+        "buttons": {
           "default": {
             "value": "$fontWeights.font-semibold",
+            "type": "fontWeights"
+          },
+          "bolder": {
+            "value": "$fontWeights.font-bold",
+            "type": "fontWeights"
+          },
+          "thinner": {
+            "value": "$fontWeights.font-thin",
+            "type": "fontWeights"
+          }
+        },
+        "pickers": {
+          "default": {
+            "value": "{fontWeights.font-regular}",
             "type": "fontWeights"
           },
           "bolder": {
@@ -1556,7 +1570,21 @@
         "type": "fontSizes"
       },
       "theme": {
-        "button": {
+        "buttons": {
+          "sm": {
+            "value": "$fontSize.text-xs",
+            "type": "fontSizes"
+          },
+          "md": {
+            "value": "$fontSize.text-sm",
+            "type": "fontSizes"
+          },
+          "lg": {
+            "value": "$fontSize.text-base",
+            "type": "fontSizes"
+          }
+        },
+        "pickers": {
           "sm": {
             "value": "$fontSize.text-xs",
             "type": "fontSizes"
@@ -2070,12 +2098,12 @@
           "value": {
             "fontFamily": "{fontFamilies.primary}",
             "fontWeight": "{fontWeights.font-regular}",
-            "lineHeight": "$lineHeights.leading-normal",
+            "lineHeight": "{lineHeights.leading-normal}",
             "fontSize": "{fontSize.text-xs}",
-            "letterSpacing": "$letterSpacing.2",
-            "paragraphSpacing": "$paragraphSpacing.0",
-            "textCase": "$textCase.none",
-            "textDecoration": "$textDecoration.none"
+            "letterSpacing": "{letterSpacing.2}",
+            "paragraphSpacing": "{paragraphSpacing.0}",
+            "textCase": "{textCase.none}",
+            "textDecoration": "{textDecoration.none}"
           },
           "type": "typography"
         },
@@ -2318,9 +2346,9 @@
         "sm": {
           "value": {
             "fontFamily": "$fontFamilies.primary",
-            "fontWeight": "{fontWeights.theme.button.default}",
+            "fontWeight": "{fontWeights.theme.buttons.default}",
             "lineHeight": "$lineHeights.leading-normal",
-            "fontSize": "$fontSize.theme.button.sm",
+            "fontSize": "{fontSize.theme.buttons.sm}",
             "letterSpacing": "$letterSpacing.2",
             "paragraphSpacing": "$paragraphSpacing.0",
             "textDecoration": "$textDecoration.none",
@@ -2344,9 +2372,9 @@
         "lg": {
           "value": {
             "fontFamily": "$fontFamilies.primary",
-            "fontWeight": "$fontWeights.theme.button.default",
+            "fontWeight": "{fontWeights.theme.buttons.default}",
             "lineHeight": "$lineHeights.leading-normal",
-            "fontSize": "$fontSize.theme.button.lg",
+            "fontSize": "{fontSize.theme.buttons.lg}",
             "letterSpacing": "$letterSpacing.2",
             "paragraphSpacing": "$paragraphSpacing.0",
             "textDecoration": "$textDecoration.none",
@@ -2359,9 +2387,9 @@
         "sm": {
           "value": {
             "fontFamily": "$fontFamilies.primary",
-            "fontWeight": "{fontWeights.theme.button.default}",
+            "fontWeight": "{fontWeights.theme.buttons.default}",
             "lineHeight": "$lineHeights.leading-normal",
-            "fontSize": "$fontSize.theme.button.sm",
+            "fontSize": "{fontSize.theme.buttons.sm}",
             "letterSpacing": "$letterSpacing.2",
             "paragraphSpacing": "$paragraphSpacing.0",
             "textDecoration": "$textDecoration.none",
@@ -2372,9 +2400,9 @@
         "md": {
           "value": {
             "fontFamily": "$fontFamilies.primary",
-            "fontWeight": "$fontWeights.theme.button.default",
+            "fontWeight": "{fontWeights.theme.buttons.default}",
             "lineHeight": "$lineHeights.leading-normal",
-            "fontSize": "$fontSize.theme.button.md",
+            "fontSize": "{fontSize.theme.buttons.md}",
             "letterSpacing": "$letterSpacing.2",
             "paragraphSpacing": "$paragraphSpacing.0",
             "textDecoration": "$textDecoration.none",
@@ -2385,13 +2413,112 @@
         "lg": {
           "value": {
             "fontFamily": "$fontFamilies.primary",
-            "fontWeight": "$fontWeights.theme.button.default",
+            "fontWeight": "{fontWeights.theme.buttons.default}",
             "lineHeight": "$lineHeights.leading-normal",
-            "fontSize": "$fontSize.theme.button.lg",
+            "fontSize": "{fontSize.theme.buttons.lg}",
             "letterSpacing": "$letterSpacing.2",
             "paragraphSpacing": "$paragraphSpacing.0",
             "textDecoration": "$textDecoration.none",
             "textCase": "$textCase.capitalize"
+          },
+          "type": "typography"
+        }
+      }
+    },
+    "pickers": {
+      "label": {
+        "sm": {
+          "value": {
+            "fontFamily": "{fontFamilies.primary}",
+            "fontWeight": "{fontWeights.theme.pickers.default}",
+            "lineHeight": "{lineHeights.leading-normal}",
+            "fontSize": "{fontSize.theme.pickers.sm}",
+            "letterSpacing": "{letterSpacing.2}",
+            "paragraphSpacing": "{paragraphSpacing.0}",
+            "textDecoration": "{textDecoration.none}",
+            "textCase": "{textCase.none}"
+          },
+          "type": "typography"
+        },
+        "md": {
+          "value": {
+            "fontFamily": "{fontFamilies.primary}",
+            "fontWeight": "{fontWeights.theme.pickers.default}",
+            "lineHeight": "{lineHeights.leading-normal}",
+            "fontSize": "{fontSize.theme.pickers.md}",
+            "letterSpacing": "{letterSpacing.2}",
+            "paragraphSpacing": "{paragraphSpacing.0}",
+            "textDecoration": "{textDecoration.none}",
+            "textCase": "{textCase.none}"
+          },
+          "type": "typography"
+        },
+        "lg": {
+          "value": {
+            "fontFamily": "{fontFamilies.primary}",
+            "fontWeight": "{fontWeights.theme.pickers.default}",
+            "lineHeight": "{lineHeights.leading-normal}",
+            "fontSize": "{fontSize.theme.pickers.lg}",
+            "letterSpacing": "{letterSpacing.2}",
+            "paragraphSpacing": "{paragraphSpacing.0}",
+            "textDecoration": "{textDecoration.none}",
+            "textCase": "{textCase.none}"
+          },
+          "type": "typography"
+        }
+      },
+      "input": {
+        "sm": {
+          "value": {
+            "fontFamily": "{fontFamilies.primary}",
+            "fontWeight": "{fontWeights.theme.pickers.default}",
+            "lineHeight": "{lineHeights.leading-normal}",
+            "fontSize": "{fontSize.theme.pickers.sm}",
+            "letterSpacing": "{letterSpacing.2}",
+            "paragraphSpacing": "{paragraphSpacing.0}",
+            "textDecoration": "{textDecoration.none}",
+            "textCase": "{textCase.none}"
+          },
+          "type": "typography"
+        },
+        "md": {
+          "value": {
+            "fontFamily": "{fontFamilies.primary}",
+            "fontWeight": "{fontWeights.theme.pickers.default}",
+            "lineHeight": "{lineHeights.leading-normal}",
+            "fontSize": "{fontSize.theme.pickers.md}",
+            "letterSpacing": "{letterSpacing.2}",
+            "paragraphSpacing": "{paragraphSpacing.0}",
+            "textDecoration": "{textDecoration.none}",
+            "textCase": "{textCase.none}"
+          },
+          "type": "typography"
+        },
+        "lg": {
+          "value": {
+            "fontFamily": "{fontFamilies.primary}",
+            "fontWeight": "{fontWeights.theme.pickers.default}",
+            "lineHeight": "{lineHeights.leading-normal}",
+            "fontSize": "{fontSize.theme.pickers.lg}",
+            "letterSpacing": "{letterSpacing.2}",
+            "paragraphSpacing": "{paragraphSpacing.0}",
+            "textDecoration": "{textDecoration.none}",
+            "textCase": "{textCase.none}"
+          },
+          "type": "typography"
+        }
+      },
+      "helperText": {
+        "default": {
+          "value": {
+            "fontFamily": "{fontFamilies.primary}",
+            "fontWeight": "{fontWeights.theme.pickers.default}",
+            "lineHeight": "{lineHeights.leading-normal}",
+            "fontSize": "{fontSize.theme.pickers.sm}",
+            "letterSpacing": "{letterSpacing.2}",
+            "paragraphSpacing": "{paragraphSpacing.0}",
+            "textDecoration": "{textDecoration.none}",
+            "textCase": "{textCase.none}"
           },
           "type": "typography"
         }
