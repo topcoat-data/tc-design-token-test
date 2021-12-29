@@ -1316,6 +1316,18 @@
               "solid": {
                 "value": "{colors.global.light.100}",
                 "type": "color"
+              },
+              "default": {
+                "value": "$colors.global.dark.4",
+                "type": "color"
+              },
+              "hover": {
+                "value": "$colors.global.dark.8",
+                "type": "color"
+              },
+              "focus": {
+                "value": "$colors.global.dark.16",
+                "type": "color"
               }
             },
             "border": {
@@ -1358,6 +1370,20 @@
                 "type": "color"
               }
             }
+          },
+          "divider": {
+            "value": "$colors.global.gray.200",
+            "type": "color"
+          }
+        },
+        "background": {
+          "main": {
+            "value": "$colors.global.light.100",
+            "type": "color"
+          },
+          "popovers": {
+            "value": "$colors.global.light.100",
+            "type": "color"
           }
         }
       }
