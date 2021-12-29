@@ -1341,16 +1341,20 @@
                 "value": "{colors.theme.primary.default}",
                 "type": "color"
               },
-              "default": {
+              "primary": {
                 "value": "{colors.theme.text.dark.primary}",
                 "type": "color"
               },
-              "soft": {
+              "secondary": {
                 "value": "{colors.theme.text.dark.secondary}",
                 "type": "color"
               },
               "error": {
                 "value": "{colors.theme.system.red}",
+                "type": "color"
+              },
+              "tertiary": {
+                "value": "{colors.theme.text.dark.tertiary}",
                 "type": "color"
               }
             }
