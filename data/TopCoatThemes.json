@@ -1480,6 +1480,14 @@
               "pressed-focus": {
                 "value": "$colors.theme.primary.dark",
                 "type": "color"
+              },
+              "inactive-label": {
+                "value": "$colors.theme.text.light.secondary",
+                "type": "color"
+              },
+              "active-label": {
+                "value": "$colors.theme.text.dark.secondary",
+                "type": "color"
               }
             }
           },
@@ -2557,6 +2565,10 @@
       "lessRounded": {
         "value": "$themeRadius.Default / 2",
         "type": "borderRadius"
+      },
+      "Button": {
+        "value": "$themeRadius.Default",
+        "type": "borderRadius"
       }
     },
     "themeBorderWidth": {
@@ -2838,6 +2850,14 @@
                 "type": "color"
               }
             }
+          },
+          "tertiary": {
+            "text": {
+              "default": {
+                "value": "$colors.theme.text.light.primary",
+                "type": "color"
+              }
+            }
           }
         },
         "picker": {
@@ -2872,7 +2892,7 @@
             }
           },
           "divider": {
-            "value": "$colors.global.gray.400",
+            "value": "$colors.global.light.8",
             "type": "color"
           },
           "menu": {
@@ -2914,12 +2934,24 @@
               "focus": {
                 "value": "$colors.global.light.24",
                 "type": "color"
+              },
+              "inactive-label": {
+                "value": "$colors.theme.text.dark.secondary",
+                "type": "color"
+              },
+              "active-label": {
+                "value": "$colors.theme.text.light.secondary",
+                "type": "color"
               }
             }
           },
           "segmented-controls": {
             "inactive-fill-default-white": {
               "value": "$colors.theme.background.main",
+              "type": "color"
+            },
+            "inactive-fill-focus-grey": {
+              "value": "$colors.global.gray.700",
               "type": "color"
             }
           }
@@ -2934,6 +2966,16 @@
             "type": "color"
           }
         }
+      }
+    },
+    "themeRadius": {
+      "Button": {
+        "value": "$borderRadius.rounded-full",
+        "type": "borderRadius"
+      },
+      "moreRounded": {
+        "value": "24",
+        "type": "borderRadius"
       }
     }
   }
