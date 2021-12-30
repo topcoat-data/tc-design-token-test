@@ -1163,7 +1163,7 @@
               "type": "color"
             },
             "secondary": {
-              "value": "{colors.global.light.64})",
+              "value": "{colors.global.light.64}",
               "type": "color"
             },
             "tertiary": {
@@ -2763,6 +2763,176 @@
             "textCase": "{textCase.none}"
           },
           "type": "typography"
+        }
+      }
+    }
+  },
+  "NCAA Dark": {
+    "colors": {
+      "theme": {
+        "primary": {
+          "default": {
+            "value": "$colors.global.blue.600",
+            "type": "color"
+          },
+          "light": {
+            "value": "$colors.global.blue.500",
+            "type": "color"
+          },
+          "dark": {
+            "value": "$colors.global.blue.700",
+            "type": "color"
+          }
+        },
+        "text": {
+          "light": {
+            "primary": {
+              "value": "$colors.global.dark.100",
+              "type": "color"
+            },
+            "secondary": {
+              "value": "$colors.global.dark.64",
+              "type": "color"
+            },
+            "tertiary": {
+              "value": "$colors.global.dark.32",
+              "type": "color"
+            }
+          },
+          "dark": {
+            "primary": {
+              "value": "$colors.global.light.88",
+              "type": "color"
+            },
+            "secondary": {
+              "value": "$colors.global.light.64",
+              "type": "color"
+            },
+            "tertiary": {
+              "value": "$colors.global.light.32",
+              "type": "color"
+            }
+          }
+        },
+        "button": {
+          "primary": {
+            "text": {
+              "default": {
+                "value": "$colors.global.white",
+                "type": "color"
+              },
+              "alternative": {
+                "value": "rgba($colors.global.white, 0.72)",
+                "type": "color"
+              }
+            }
+          },
+          "secondary": {
+            "fill": {
+              "hover": {
+                "value": "$colors.global.light.4",
+                "type": "color"
+              },
+              "focus": {
+                "value": "$colors.global.light.8",
+                "type": "color"
+              }
+            }
+          }
+        },
+        "picker": {
+          "field": {
+            "fill": {
+              "default": {
+                "value": "$colors.global.light.4",
+                "type": "color"
+              },
+              "hover": {
+                "value": "$colors.global.light.8",
+                "type": "color"
+              },
+              "focus": {
+                "value": "$colors.global.light.16",
+                "type": "color"
+              },
+              "solid": {
+                "value": "$colors.theme.background.main",
+                "type": "color"
+              }
+            },
+            "border": {
+              "hover": {
+                "value": "$colors.global.light.24",
+                "type": "color"
+              },
+              "default": {
+                "value": "$colors.global.light.16",
+                "type": "color"
+              }
+            }
+          },
+          "divider": {
+            "value": "$colors.global.gray.400",
+            "type": "color"
+          },
+          "menu": {
+            "default": {
+              "fill-hover": {
+                "value": "$colors.global.light.4",
+                "type": "color"
+              },
+              "fill-focus": {
+                "value": "$colors.global.light.8",
+                "type": "color"
+              }
+            }
+          },
+          "selection-controls": {
+            "checkbox-radio": {
+              "default": {
+                "value": "$colors.global.light.16",
+                "type": "color"
+              },
+              "hover": {
+                "value": "$colors.global.light.24",
+                "type": "color"
+              },
+              "focus": {
+                "value": "$colors.global.light.32",
+                "type": "color"
+              }
+            },
+            "switcher": {
+              "default": {
+                "value": "$colors.global.light.8",
+                "type": "color"
+              },
+              "hover": {
+                "value": "$colors.global.light.16",
+                "type": "color"
+              },
+              "focus": {
+                "value": "$colors.global.light.24",
+                "type": "color"
+              }
+            }
+          },
+          "segmented-controls": {
+            "inactive-fill-default-white": {
+              "value": "$colors.theme.background.main",
+              "type": "color"
+            }
+          }
+        },
+        "background": {
+          "main": {
+            "value": "#2C2E47",
+            "type": "color"
+          },
+          "popovers": {
+            "value": "#33354E",
+            "type": "color"
+          }
         }
       }
     }
