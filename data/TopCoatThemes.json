@@ -2978,5 +2978,35 @@
         "type": "borderRadius"
       }
     }
+  },
+  "NCAA Light": {
+    "colors": {
+      "theme": {
+        "primary": {
+          "default": {
+            "value": "$colors.global.blue.600",
+            "type": "color"
+          },
+          "light": {
+            "value": "$colors.global.blue.500",
+            "type": "color"
+          },
+          "dark": {
+            "value": "$colors.global.blue.700",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "themeRadius": {
+      "Button": {
+        "value": "$borderRadius.rounded-full",
+        "type": "borderRadius"
+      },
+      "Default": {
+        "value": "$borderRadius.rounded-none",
+        "type": "borderRadius"
+      }
+    }
   }
 }
