@@ -1410,6 +1410,22 @@
               "textDisabled": {
                 "value": "{colors.theme.text.dark.tertiary}",
                 "type": "color"
+              },
+              "fill-default": {
+                "value": "hsla(100,0%,0%,0%)",
+                "type": "color"
+              },
+              "fill-hover": {
+                "value": "$colors.global.dark.4",
+                "type": "color"
+              },
+              "fill-focus": {
+                "value": "$colors.global.dark.8",
+                "type": "color"
+              },
+              "fill-disabled": {
+                "value": "hsla(100,0%,0%,0%)",
+                "type": "color"
               }
             }
           },
@@ -1465,6 +1481,48 @@
                 "value": "$colors.theme.primary.dark",
                 "type": "color"
               }
+            }
+          },
+          "segmented-controls": {
+            "active-fill": {
+              "value": "$colors.theme.primary.default",
+              "type": "color"
+            },
+            "active-label": {
+              "value": "$colors.theme.button.primary.text.default",
+              "type": "color"
+            },
+            "inactive-fill-default": {
+              "value": "hsla(100,0%,0%,0%)",
+              "type": "color"
+            },
+            "inactive-fill-default-white": {
+              "value": "$colors.global.light.100",
+              "type": "color"
+            },
+            "inactive-label": {
+              "value": "$colors.theme.picker.field.text.secondary",
+              "type": "color"
+            },
+            "inactive-fill-hover": {
+              "value": "$colors.theme.button.secondary.fill.hover",
+              "type": "color"
+            },
+            "inactive-fill-focus": {
+              "value": "$colors.theme.button.secondary.fill.focus",
+              "type": "color"
+            },
+            "inactive-fill-disabled": {
+              "value": "$colors.theme.button.secondary.fill.disabled",
+              "type": "color"
+            },
+            "inactive-fill-hover-grey": {
+              "value": "$colors.global.gray.200",
+              "type": "color"
+            },
+            "inactive-fill-focus-grey": {
+              "value": "$colors.global.gray.400",
+              "type": "color"
             }
           }
         },
