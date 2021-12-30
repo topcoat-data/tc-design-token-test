@@ -1374,6 +1374,44 @@
           "divider": {
             "value": "$colors.global.gray.200",
             "type": "color"
+          },
+          "menu": {
+            "highlight": {
+              "fill": {
+                "value": "{colors.theme.primary.default}",
+                "type": "color"
+              },
+              "text": {
+                "value": "{colors.global.light.100}",
+                "type": "color"
+              },
+              "textSoft": {
+                "value": "{colors.global.light.88}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{colors.theme.primary.light}",
+                "type": "color"
+              },
+              "focus": {
+                "value": "{colors.theme.primary.dark}",
+                "type": "color"
+              },
+              "disabled": {
+                "value": "rgba({colors.theme.primary.default}, 0.75)",
+                "type": "color"
+              }
+            },
+            "default": {
+              "text": {
+                "value": "{colors.theme.picker.field.text.secondary}",
+                "type": "color"
+              },
+              "textDisabled": {
+                "value": "{colors.theme.text.dark.tertiary}",
+                "type": "color"
+              }
+            }
           }
         },
         "background": {
@@ -2428,7 +2466,7 @@
         "value": "$opacity.opacity-50",
         "type": "opacity"
       },
-      "secondary": {
+      "disabled": {
         "value": "$opacity.opacity-50",
         "type": "opacity"
       }
