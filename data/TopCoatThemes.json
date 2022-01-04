@@ -1346,6 +1346,10 @@
               "default": {
                 "value": "{colors.global.dark.16}",
                 "type": "color"
+              },
+              "success": {
+                "value": "{colors.global.dark.64}",
+                "type": "color"
               }
             },
             "text": {
