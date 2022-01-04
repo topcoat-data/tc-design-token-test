@@ -1551,6 +1551,58 @@
             "value": "$colors.global.light.100",
             "type": "color"
           }
+        },
+        "tag": {
+          "fill": {
+            "default": {
+              "value": "{colors.global.dark.4}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{colors.global.dark.8}",
+              "type": "color"
+            },
+            "focus": {
+              "value": "{colors.global.dark.16}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{colors.global.dark.2}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "default": {
+              "value": "{colors.global.dark.16}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{colors.global.dark.32}",
+              "type": "color"
+            },
+            "focus": {
+              "value": "{colors.global.dark.24}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{colors.global.dark.8}",
+              "type": "color"
+            }
+          },
+          "text": {
+            "primary": {
+              "value": "{colors.theme.text.dark.primary}",
+              "type": "color"
+            },
+            "secondary": {
+              "value": "{colors.global.dark.48}",
+              "type": "color"
+            },
+            "tertiary": {
+              "value": "{colors.global.dark.24}",
+              "type": "color"
+            }
+          }
         }
       }
     },
