@@ -1336,7 +1336,7 @@
                 "type": "color"
               },
               "hover": {
-                "value": "{colors.global.dark.24}",
+                "value": "{colors.global.dark.32}",
                 "type": "color"
               },
               "error": {
