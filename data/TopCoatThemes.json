@@ -1488,6 +1488,10 @@
               "active-label": {
                 "value": "$colors.theme.text.dark.secondary",
                 "type": "color"
+              },
+              "knob": {
+                "value": "$colors.global.white",
+                "type": "color"
               }
             }
           },
