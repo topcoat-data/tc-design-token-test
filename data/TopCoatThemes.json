@@ -1350,6 +1350,10 @@
               "success": {
                 "value": "{colors.global.dark.64}",
                 "type": "color"
+              },
+              "disabled": {
+                "value": "{colors.global.dark.8}",
+                "type": "color"
               }
             },
             "text": {
