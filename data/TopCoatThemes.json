@@ -1603,6 +1603,52 @@
               "type": "color"
             }
           }
+        },
+        "tabs": {
+          "text": {
+            "primary": {
+              "value": "$colors.theme.text.dark.primary",
+              "type": "color"
+            },
+            "secondary": {
+              "value": "$colors.global.dark.48",
+              "type": "color"
+            },
+            "tertiary": {
+              "value": "$colors.global.dark.24",
+              "type": "color"
+            },
+            "indicator-positive": {
+              "value": "$colors.theme.system.green",
+              "type": "color"
+            },
+            "indicator-negative": {
+              "value": "$colors.theme.system.red",
+              "type": "color"
+            },
+            "underline": {
+              "grey": {
+                "value": "$colors.theme.picker.divider",
+                "type": "color"
+              },
+              "grey-focus": {
+                "value": "$colors.global.dark.24",
+                "type": "color"
+              },
+              "active": {
+                "value": "$colors.theme.primary.default",
+                "type": "color"
+              },
+              "active-hover": {
+                "value": "$colors.theme.primary.light",
+                "type": "color"
+              },
+              "active-focus": {
+                "value": "$colors.theme.primary.dark",
+                "type": "color"
+              }
+            }
+          }
         }
       }
     },
