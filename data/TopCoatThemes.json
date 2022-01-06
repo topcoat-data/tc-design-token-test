@@ -1611,11 +1611,11 @@
               "type": "color"
             },
             "secondary": {
-              "value": "$colors.global.dark.48",
+              "value": "$colors.theme.text.dark.secondary",
               "type": "color"
             },
             "tertiary": {
-              "value": "$colors.global.dark.24",
+              "value": "$colors.theme.text.dark.tertiary",
               "type": "color"
             },
             "indicator-positive": {
@@ -1625,26 +1625,62 @@
             "indicator-negative": {
               "value": "$colors.theme.system.red",
               "type": "color"
+            }
+          },
+          "underline": {
+            "grey": {
+              "value": "$colors.theme.picker.divider",
+              "type": "color"
             },
-            "underline": {
-              "grey": {
-                "value": "$colors.theme.picker.divider",
+            "grey-focus": {
+              "value": "$colors.global.dark.16",
+              "type": "color"
+            },
+            "active": {
+              "value": "$colors.theme.primary.default",
+              "type": "color"
+            },
+            "active-hover": {
+              "value": "$colors.theme.primary.light",
+              "type": "color"
+            },
+            "active-focus": {
+              "value": "$colors.theme.primary.dark",
+              "type": "color"
+            }
+          },
+          "fill": {
+            "inactive": {
+              "default": {
+                "value": "hsla(100,0%,0%,0%)",
                 "type": "color"
               },
-              "grey-focus": {
-                "value": "$colors.global.dark.24",
+              "hover": {
+                "value": "$colors.global.dark.4",
                 "type": "color"
               },
-              "active": {
-                "value": "$colors.theme.primary.default",
+              "focus": {
+                "value": "$colors.global.dark.8",
+                "type": "color"
+              }
+            },
+            "active": {
+              "default": {
+                "value": "$colors.global.white",
+                "type": "color"
+              }
+            },
+            "disabled": {
+              "value": "$colors.global.dark.2",
+              "type": "color"
+            },
+            "ictive": {
+              "hover": {
+                "value": "$colors.global.light.88",
                 "type": "color"
               },
-              "active-hover": {
-                "value": "$colors.theme.primary.light",
-                "type": "color"
-              },
-              "active-focus": {
-                "value": "$colors.theme.primary.dark",
+              "focus": {
+                "value": "$colors.global.light.72",
                 "type": "color"
               }
             }
