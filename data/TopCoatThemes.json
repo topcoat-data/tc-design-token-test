@@ -2844,15 +2844,15 @@
       "theme": {
         "primary": {
           "default": {
-            "value": "$colors.global.blue.600",
+            "value": "#0A84FF",
             "type": "color"
           },
           "light": {
-            "value": "$colors.global.blue.500",
+            "value": "#2391FF",
             "type": "color"
           },
           "dark": {
-            "value": "$colors.global.blue.700",
+            "value": "#0A71DA",
             "type": "color"
           }
         },
@@ -3024,6 +3024,59 @@
           "popovers": {
             "value": "#33354E",
             "type": "color"
+          }
+        },
+        "tag": {
+          "fill": {
+            "default": {
+              "value": "$colors.global.light.8",
+              "description": "",
+              "type": "color"
+            },
+            "hover": {
+              "value": "$colors.global.light.24",
+              "type": "color"
+            },
+            "focus": {
+              "value": "$colors.global.light.16",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "$colors.global.light.4",
+              "type": "color"
+            }
+          },
+          "border": {
+            "default": {
+              "value": "$colors.global.light.16",
+              "type": "color"
+            },
+            "hover": {
+              "value": "$colors.global.light.32",
+              "type": "color"
+            },
+            "focus": {
+              "value": "$colors.global.light.24",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "$colors.global.light.8",
+              "type": "color"
+            }
+          },
+          "text": {
+            "primary": {
+              "value": "$colors.theme.text.dark.primary",
+              "type": "color"
+            },
+            "secondary": {
+              "value": "$colors.global.light.48",
+              "type": "color"
+            },
+            "tertiary": {
+              "value": "$colors.global.light.24",
+              "type": "color"
+            }
           }
         }
       }
