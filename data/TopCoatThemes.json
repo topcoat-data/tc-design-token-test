@@ -1668,19 +1668,17 @@
               "default": {
                 "value": "$colors.global.white",
                 "type": "color"
-              }
-            },
-            "disabled": {
-              "value": "$colors.global.dark.2",
-              "type": "color"
-            },
-            "ictive": {
+              },
+              "disabled": {
+                "value": "$colors.global.dark.2",
+                "type": "color"
+              },
               "hover": {
-                "value": "$colors.global.light.88",
+                "value": "$colors.theme.system.grey.100",
                 "type": "color"
               },
               "focus": {
-                "value": "$colors.global.light.72",
+                "value": "$colors.theme.system.grey.300",
                 "type": "color"
               }
             }
@@ -2709,6 +2707,10 @@
         "type": "borderRadius"
       },
       "Button": {
+        "value": "$themeRadius.Default",
+        "type": "borderRadius"
+      },
+      "Sidebar-item": {
         "value": "$themeRadius.Default",
         "type": "borderRadius"
       }
