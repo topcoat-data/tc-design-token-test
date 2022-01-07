@@ -1683,6 +1683,40 @@
               }
             }
           }
+        },
+        "tables": {
+          "notification-dot": {
+            "border": {
+              "value": "$colors.theme.background.main",
+              "type": "color"
+            },
+            "notification": {
+              "value": "$colors.theme.system.red",
+              "type": "color"
+            },
+            "online": {
+              "value": "$colors.theme.system.green",
+              "type": "color"
+            },
+            "away": {
+              "value": "$colors.theme.system.yellow",
+              "type": "color"
+            },
+            "offline": {
+              "value": "$colors.theme.system.grey.200",
+              "type": "color"
+            }
+          },
+          "no-photo-avatar": {
+            "circle": {
+              "value": "$colors.theme.system.grey.100",
+              "type": "color"
+            },
+            "icon": {
+              "value": "$colors.theme.system.grey.200",
+              "type": "color"
+            }
+          }
         }
       }
     },
