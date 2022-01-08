@@ -1224,7 +1224,7 @@
                 "type": "color"
               },
               "disabled": {
-                "value": "rgba({colors.theme.button.primary.fill.default}, 0.75)",
+                "value": "rgba({colors.theme.button.primary.fill.default}, 0.50)",
                 "type": "color"
               }
             },
@@ -1714,6 +1714,36 @@
             },
             "icon": {
               "value": "$colors.theme.system.grey.200",
+              "type": "color"
+            }
+          },
+          "text": {
+            "primary": {
+              "value": "$colors.theme.text.dark.primary",
+              "type": "color"
+            },
+            "secondary": {
+              "value": "$colors.theme.text.dark.secondary",
+              "type": "color"
+            },
+            "tertiary": {
+              "value": "$colors.theme.text.dark.tertiary",
+              "type": "color"
+            },
+            "link-default": {
+              "value": "$colors.theme.primary.default",
+              "type": "color"
+            },
+            "link-hover": {
+              "value": "$colors.theme.primary.light",
+              "type": "color"
+            },
+            "link-focus": {
+              "value": "$colors.theme.primary.dark",
+              "type": "color"
+            },
+            "link-disabled": {
+              "value": "$colors.theme.button.primary.fill.disabled",
               "type": "color"
             }
           }
