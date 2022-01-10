@@ -2801,6 +2801,10 @@
       "Sidebar-item": {
         "value": "$themeRadius.Default",
         "type": "borderRadius"
+      },
+      "table": {
+        "value": "$themeRadius.moreRounded",
+        "type": "borderRadius"
       }
     },
     "themeBorderWidth": {
