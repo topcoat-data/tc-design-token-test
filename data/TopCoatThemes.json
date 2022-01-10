@@ -1746,6 +1746,30 @@
               "value": "$colors.theme.button.primary.fill.disabled",
               "type": "color"
             }
+          },
+          "cell": {
+            "background": {
+              "value": "$colors.global.dark.2",
+              "type": "color"
+            }
+          },
+          "graphs": {
+            "positive": {
+              "value": "$colors.theme.system.green",
+              "type": "color"
+            },
+            "mean": {
+              "value": "$colors.theme.system.yellow",
+              "type": "color"
+            },
+            "negative": {
+              "value": "$colors.theme.system.red",
+              "type": "color"
+            },
+            "background": {
+              "value": "$colors.global.dark.4",
+              "type": "color"
+            }
           }
         }
       }
