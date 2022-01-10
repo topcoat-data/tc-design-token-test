@@ -1770,6 +1770,16 @@
               "value": "$colors.global.dark.4",
               "type": "color"
             }
+          },
+          "background": {
+            "background": {
+              "value": "$colors.theme.background.popovers",
+              "type": "color"
+            },
+            "border": {
+              "value": "$colors.theme.picker.divider",
+              "type": "color"
+            }
           }
         }
       }
