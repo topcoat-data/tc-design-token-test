@@ -1497,6 +1497,44 @@
                 "value": "$colors.global.white",
                 "type": "color"
               }
+            },
+            "radio-groups": {
+              "fill": {
+                "inactive-default": {
+                  "value": "hsla(100,0%,0%,0%)",
+                  "type": "color"
+                },
+                "inactive-hover": {
+                  "value": "$colors.global.dark.8",
+                  "type": "color"
+                },
+                "inactive-focus": {
+                  "value": "$colors.global.dark.16",
+                  "type": "color"
+                },
+                "inactive-disabled": {
+                  "value": "hsla(100,0%,0%,0%)",
+                  "type": "color"
+                }
+              },
+              "border": {
+                "inactive-default": {
+                  "value": "hsla(100,0%,0%,0%)",
+                  "type": "color"
+                },
+                "inactive-hover": {
+                  "value": "$colors.global.dark.8",
+                  "type": "color"
+                },
+                "inactive-focus": {
+                  "value": "$colors.global.dark.16",
+                  "type": "color"
+                },
+                "inactive-disabled": {
+                  "value": "hsla(100,0%,0%,0%)",
+                  "type": "color"
+                }
+              }
             }
           },
           "segmented-controls": {
