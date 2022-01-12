@@ -1517,15 +1517,15 @@
                   "type": "color"
                 },
                 "active-default": {
-                  "value": "$colors.global.dark.4",
+                  "value": "$colors.global.dark.2",
                   "type": "color"
                 },
                 "active-hover": {
-                  "value": "$colors.global.dark.8",
+                  "value": "$colors.global.dark.4",
                   "type": "color"
                 },
                 "active-focus": {
-                  "value": "$colors.global.dark.16",
+                  "value": "$colors.global.dark.8",
                   "type": "color"
                 },
                 "active-disabled": {
@@ -2884,6 +2884,10 @@
       },
       "table": {
         "value": "$themeRadius.moreRounded",
+        "type": "borderRadius"
+      },
+      "radio-groups": {
+        "value": "$themeRadius.Default",
         "type": "borderRadius"
       }
     },
