@@ -1505,15 +1505,31 @@
                   "type": "color"
                 },
                 "inactive-hover": {
-                  "value": "$colors.global.dark.8",
+                  "value": "$colors.global.dark.2",
                   "type": "color"
                 },
                 "inactive-focus": {
-                  "value": "$colors.global.dark.16",
+                  "value": "$colors.global.dark.8",
                   "type": "color"
                 },
                 "inactive-disabled": {
                   "value": "hsla(100,0%,0%,0%)",
+                  "type": "color"
+                },
+                "active-default": {
+                  "value": "$colors.global.dark.4",
+                  "type": "color"
+                },
+                "active-hover": {
+                  "value": "$colors.global.dark.8",
+                  "type": "color"
+                },
+                "active-focus": {
+                  "value": "$colors.global.dark.16",
+                  "type": "color"
+                },
+                "active-disabled": {
+                  "value": "$colors.global.dark.2",
                   "type": "color"
                 }
               },
@@ -1532,6 +1548,22 @@
                 },
                 "inactive-disabled": {
                   "value": "hsla(100,0%,0%,0%)",
+                  "type": "color"
+                },
+                "active-default": {
+                  "value": "$colors.theme.primary.default",
+                  "type": "color"
+                },
+                "active-hover": {
+                  "value": "$colors.theme.primary.light",
+                  "type": "color"
+                },
+                "iactive-focus": {
+                  "value": "$colors.theme.primary.dark",
+                  "type": "color"
+                },
+                "active-disabled": {
+                  "value": "$colors.theme.button.primary.fill.disabled",
                   "type": "color"
                 }
               }
