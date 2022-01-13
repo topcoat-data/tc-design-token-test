@@ -1905,6 +1905,14 @@
             "fill-disabled": {
               "value": "$colors.global.dark.2",
               "type": "color"
+            },
+            "separator": {
+              "value": "$colors.theme.picker.divider",
+              "type": "color"
+            },
+            "white": {
+              "value": "$colors.global.white",
+              "type": "color"
             }
           }
         }
@@ -2944,6 +2952,10 @@
       },
       "radio-groups": {
         "value": "$themeRadius.Default",
+        "type": "borderRadius"
+      },
+      "card": {
+        "value": "$themeRadius.moreRounded",
         "type": "borderRadius"
       }
     },
