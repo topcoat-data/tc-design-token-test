@@ -1913,6 +1913,10 @@
             "white": {
               "value": "$colors.global.white",
               "type": "color"
+            },
+            "border": {
+              "value": "$colors.theme.picker.divider",
+              "type": "color"
             }
           }
         }
