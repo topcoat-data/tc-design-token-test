@@ -1955,6 +1955,10 @@
             "background": {
               "value": "$colors.global.white",
               "type": "color"
+            },
+            "filled": {
+              "value": "$colors.global.dark.4",
+              "type": "color"
             }
           }
         }
