@@ -1957,7 +1957,7 @@
               "type": "color"
             },
             "filled": {
-              "value": "$colors.global.dark.4",
+              "value": "$colors.global.dark.2",
               "type": "color"
             }
           }
