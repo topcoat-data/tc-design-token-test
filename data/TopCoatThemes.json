@@ -1639,6 +1639,18 @@
             "disabled": {
               "value": "{colors.global.dark.2}",
               "type": "color"
+            },
+            "positive": {
+              "value": "$colors.theme.system.green",
+              "type": "color"
+            },
+            "mean": {
+              "value": "$colors.theme.system.yellow",
+              "type": "color"
+            },
+            "negative": {
+              "value": "$colors.theme.system.red",
+              "type": "color"
             }
           },
           "border": {
