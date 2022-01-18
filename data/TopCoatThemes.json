@@ -1973,6 +1973,22 @@
               "type": "color"
             }
           }
+        },
+        "modals": {
+          "background": {
+            "window": {
+              "value": "$colors.theme.background.popovers",
+              "type": "color"
+            },
+            "sidebar": {
+              "value": "$colors.global.gray.100",
+              "type": "color"
+            },
+            "border": {
+              "value": "$colors.theme.picker.divider",
+              "type": "color"
+            }
+          }
         }
       }
     },
@@ -3018,6 +3034,10 @@
       },
       "graph": {
         "value": "$themeRadius.Default",
+        "type": "borderRadius"
+      },
+      "window": {
+        "value": "$themeRadius.moreRounded",
         "type": "borderRadius"
       }
     },
