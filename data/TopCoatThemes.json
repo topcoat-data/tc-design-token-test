@@ -1567,6 +1567,24 @@
                   "type": "color"
                 }
               }
+            },
+            "star": {
+              "default": {
+                "value": "$colors.theme.secondary.default",
+                "type": "color"
+              },
+              "hover": {
+                "value": "$colors.theme.secondary.light",
+                "type": "color"
+              },
+              "focus": {
+                "value": "$colors.theme.secondary.dark",
+                "type": "color"
+              },
+              "disabled": {
+                "value": "rgba({colors.theme.secondary.default}, 0.50)",
+                "type": "color"
+              }
             }
           },
           "segmented-controls": {
