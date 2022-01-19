@@ -3061,6 +3061,10 @@
       "tab": {
         "value": "$themeRadius.Default",
         "type": "borderRadius"
+      },
+      "avatar": {
+        "value": "$borderRadius.rounded-full",
+        "type": "borderRadius"
       }
     },
     "themeBorderWidth": {
