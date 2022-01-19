@@ -3583,6 +3583,10 @@
       "table": {
         "value": "16",
         "type": "borderRadius"
+      },
+      "card": {
+        "value": "16",
+        "type": "borderRadius"
       }
     }
   },
