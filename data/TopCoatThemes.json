@@ -3536,6 +3536,18 @@
               }
             }
           }
+        },
+        "modals": {
+          "background": {
+            "window": {
+              "value": "#2C2E47",
+              "type": "color"
+            },
+            "sidebar": {
+              "value": "#3F4366",
+              "type": "color"
+            }
+          }
         }
       }
     },
