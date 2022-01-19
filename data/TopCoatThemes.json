@@ -3556,6 +3556,14 @@
               "type": "color"
             }
           }
+        },
+        "tables": {
+          "cell": {
+            "background": {
+              "value": "$colors.global.light.4",
+              "type": "color"
+            }
+          }
         }
       }
     },
@@ -3570,6 +3578,10 @@
       },
       "tab": {
         "value": "$borderRadius.rounded-full",
+        "type": "borderRadius"
+      },
+      "table": {
+        "value": "16",
         "type": "borderRadius"
       }
     }
