@@ -1402,7 +1402,7 @@
                 "type": "color"
               },
               "disabled": {
-                "value": "rgba({colors.theme.primary.default}, 0.75)",
+                "value": "rgba({colors.theme.primary.default}, 0.5)",
                 "type": "color"
               }
             },
@@ -3057,6 +3057,10 @@
       "window": {
         "value": "$themeRadius.moreRounded",
         "type": "borderRadius"
+      },
+      "tab": {
+        "value": "$themeRadius.Default",
+        "type": "borderRadius"
       }
     },
     "themeBorderWidth": {
@@ -3506,6 +3510,28 @@
               "type": "color"
             }
           }
+        },
+        "tabs": {
+          "fill": {
+            "active": {
+              "default": {
+                "value": "$colors.theme.primary.default",
+                "type": "color"
+              },
+              "focus": {
+                "value": "$colors.theme.primary.dark",
+                "type": "color"
+              },
+              "hover": {
+                "value": "$colors.theme.primary.light",
+                "type": "color"
+              },
+              "disabled": {
+                "value": "rgba({colors.theme.primary.default}, 0.5)",
+                "type": "color"
+              }
+            }
+          }
         }
       }
     },
@@ -3516,6 +3542,10 @@
       },
       "moreRounded": {
         "value": "24",
+        "type": "borderRadius"
+      },
+      "tab": {
+        "value": "$borderRadius.rounded-full",
         "type": "borderRadius"
       }
     }
