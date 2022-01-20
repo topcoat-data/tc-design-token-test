@@ -3439,6 +3439,44 @@
                 "value": "$colors.theme.text.light.secondary",
                 "type": "color"
               }
+            },
+            "radio-groups": {
+              "fill": {
+                "active-default": {
+                  "value": "$colors.global.light.2",
+                  "type": "color"
+                },
+                "active-hover": {
+                  "value": "$colors.global.light.4",
+                  "type": "color"
+                },
+                "active-focus": {
+                  "value": "$colors.global.light.8",
+                  "type": "color"
+                },
+                "active-disabled": {
+                  "value": "$colors.global.light.2",
+                  "type": "color"
+                }
+              },
+              "border": {
+                "active-default": {
+                  "value": "$colors.global.light.8",
+                  "type": "color"
+                },
+                "active-hover": {
+                  "value": "$colors.global.light.16",
+                  "type": "color"
+                },
+                "iactive-focus": {
+                  "value": "$colors.global.light.8",
+                  "type": "color"
+                },
+                "active-disabled": {
+                  "value": "$colors.global.light.4",
+                  "type": "color"
+                }
+              }
             }
           },
           "segmented-controls": {
