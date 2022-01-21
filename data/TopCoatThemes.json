@@ -3602,6 +3602,14 @@
               "type": "color"
             }
           }
+        },
+        "charts": {
+          "fill": {
+            "filled": {
+              "value": "$colors.global.light.2",
+              "type": "color"
+            }
+          }
         }
       }
     },
