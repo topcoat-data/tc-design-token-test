@@ -1659,15 +1659,15 @@
               "type": "color"
             },
             "positive": {
-              "value": "rgba($colors.theme.system.green, 0.1)",
+              "value": "rgba($colors.theme.system.green, 0.05)",
               "type": "color"
             },
             "mean": {
-              "value": "rgba($colors.theme.system.yellow, 0.1)",
+              "value": "rgba($colors.theme.system.yellow, 0.05)",
               "type": "color"
             },
             "negative": {
-              "value": "rgba($colors.theme.system.red, 0.1)",
+              "value": "rgba($colors.theme.system.red, 0.05)",
               "type": "color"
             }
           },
