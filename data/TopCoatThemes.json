@@ -1659,15 +1659,15 @@
               "type": "color"
             },
             "positive": {
-              "value": "$colors.theme.system.green",
+              "value": "rgba($colors.theme.system.green, 0.1)",
               "type": "color"
             },
             "mean": {
-              "value": "$colors.theme.system.yellow",
+              "value": "rgba($colors.theme.system.yellow, 0.1)",
               "type": "color"
             },
             "negative": {
-              "value": "$colors.theme.system.red",
+              "value": "rgba($colors.theme.system.red, 0.1)",
               "type": "color"
             }
           },
@@ -1988,6 +1988,18 @@
             },
             "filled": {
               "value": "$colors.global.dark.2",
+              "type": "color"
+            },
+            "type1": {
+              "value": "$colors.global.blue.500",
+              "type": "color"
+            },
+            "type2": {
+              "value": "$colors.global.blue.300",
+              "type": "color"
+            },
+            "type3": {
+              "value": "$colors.global.blue.100",
               "type": "color"
             }
           }
