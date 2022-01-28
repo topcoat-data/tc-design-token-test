@@ -2016,8 +2016,20 @@
             }
           },
           "pin": {
-            "fill": {
+            "fill-default": {
               "value": "$colors.global.amber.400",
+              "type": "color"
+            },
+            "fill-hover": {
+              "value": "$colors.global.amber.300",
+              "type": "color"
+            },
+            "fill-focus": {
+              "value": "$colors.global.amber.500",
+              "type": "color"
+            },
+            "fill-disabled": {
+              "value": "rgba($colors.global.amber.500, 0.50)",
               "type": "color"
             },
             "border": {
@@ -3729,12 +3741,6 @@
               "value": "$colors.global.blue.100",
               "type": "color"
             }
-          }
-        },
-        "background": {
-          "main": {
-            "value": "#1A1A1A",
-            "type": "color"
           }
         }
       }
