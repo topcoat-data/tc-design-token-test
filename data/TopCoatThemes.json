@@ -3730,6 +3730,12 @@
               "type": "color"
             }
           }
+        },
+        "background": {
+          "main": {
+            "value": "#1A1A1A",
+            "type": "color"
+          }
         }
       }
     }
