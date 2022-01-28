@@ -1994,6 +1994,10 @@
               "value": "$colors.theme.picker.divider",
               "type": "color"
             },
+            "line-alternative": {
+              "value": "$colors.global.light.16",
+              "type": "color"
+            },
             "positive": {
               "value": "$colors.theme.system.green",
               "type": "color"
