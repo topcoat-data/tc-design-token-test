@@ -1959,6 +1959,18 @@
             "border": {
               "value": "$colors.theme.picker.divider",
               "type": "color"
+            },
+            "red-default": {
+              "value": "rgba($colors.theme.system.red, 0.05)",
+              "type": "color"
+            },
+            "red-hover": {
+              "value": "rgba($colors.theme.system.red, 0.1)",
+              "type": "color"
+            },
+            "red-focus": {
+              "value": "rgba($colors.theme.system.red, 0.3)",
+              "type": "color"
             }
           }
         },
@@ -3743,6 +3755,12 @@
             }
           }
         }
+      }
+    },
+    "themeRadius": {
+      "card": {
+        "value": "24",
+        "type": "borderRadius"
       }
     }
   }
