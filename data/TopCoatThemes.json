@@ -2003,15 +2003,29 @@
               "type": "color"
             },
             "type1": {
-              "value": "$colors.global.blue.500",
+              "value": "$colors.global.amber.400",
               "type": "color"
             },
             "type2": {
-              "value": "$colors.global.blue.300",
+              "value": "$colors.global.amber.200",
               "type": "color"
             },
             "type3": {
-              "value": "$colors.global.blue.100",
+              "value": "$colors.global.amber.100",
+              "type": "color"
+            }
+          },
+          "pin": {
+            "fill": {
+              "value": "$colors.global.amber.400",
+              "type": "color"
+            },
+            "border": {
+              "value": "$colors.global.white",
+              "type": "color"
+            },
+            "text": {
+              "value": "$colors.global.white",
               "type": "color"
             }
           }
@@ -3089,6 +3103,10 @@
       "avatar": {
         "value": "$borderRadius.rounded-full",
         "type": "borderRadius"
+      },
+      "pin": {
+        "value": "$borderRadius.rounded-full",
+        "type": "borderRadius"
       }
     },
     "themeBorderWidth": {
@@ -3098,6 +3116,10 @@
       },
       "focus-border": {
         "value": "$borderWidth.border-2",
+        "type": "borderWidth"
+      },
+      "pin": {
+        "value": "$themeBorderWidth.focus-border",
         "type": "borderWidth"
       }
     },
@@ -3687,6 +3709,28 @@
       "Default": {
         "value": "$borderRadius.rounded-none",
         "type": "borderRadius"
+      }
+    }
+  },
+  "Pothole": {
+    "colors": {
+      "theme": {
+        "charts": {
+          "fill": {
+            "type1": {
+              "value": "$colors.global.blue.500",
+              "type": "color"
+            },
+            "type2": {
+              "value": "$colors.global.blue.300",
+              "type": "color"
+            },
+            "type3": {
+              "value": "$colors.global.blue.100",
+              "type": "color"
+            }
+          }
+        }
       }
     }
   }
