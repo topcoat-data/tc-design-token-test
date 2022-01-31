@@ -3765,6 +3765,10 @@
       "card": {
         "value": "24",
         "type": "borderRadius"
+      },
+      "Default": {
+        "value": "16",
+        "type": "borderRadius"
       }
     }
   }
