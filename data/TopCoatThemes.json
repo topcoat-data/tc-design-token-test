@@ -2056,6 +2056,16 @@
               "value": "$colors.global.white",
               "type": "color"
             }
+          },
+          "line-chart": {
+            "line": {
+              "value": "$colors.global.amber.400",
+              "type": "color"
+            },
+            "fill": {
+              "value": "$colors.global.amber.200",
+              "type": "color"
+            }
           }
         },
         "modals": {
@@ -3764,10 +3774,6 @@
     "themeRadius": {
       "card": {
         "value": "24",
-        "type": "borderRadius"
-      },
-      "Default": {
-        "value": "16",
         "type": "borderRadius"
       }
     }
