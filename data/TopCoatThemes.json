@@ -2082,6 +2082,40 @@
               "value": "rgba($colors.theme.charts.line-chart.line, 0.10)",
               "type": "color"
             }
+          },
+          "pie-chart": {
+            "type1": {
+              "value": "$colors.global.blue.500",
+              "type": "color"
+            },
+            "type2": {
+              "value": "$colors.global.yellow.400",
+              "type": "color"
+            },
+            "type3": {
+              "value": "$colors.global.emerald.500",
+              "type": "color"
+            },
+            "type4": {
+              "value": "$colors.global.orange.400",
+              "type": "color"
+            },
+            "type5": {
+              "value": "$colors.global.purple.500",
+              "type": "color"
+            },
+            "type6": {
+              "value": "$colors.global.rose.500",
+              "type": "color"
+            },
+            "border": {
+              "value": "$colors.global.light.100",
+              "type": "color"
+            },
+            "type7": {
+              "value": "$colors.global.dark.4",
+              "type": "color"
+            }
           }
         },
         "modals": {
