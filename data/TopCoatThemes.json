@@ -2116,6 +2116,32 @@
               "value": "$colors.global.dark.4",
               "type": "color"
             }
+          },
+          "Choropleth": {
+            "border": {
+              "value": "$colors.global.light.100",
+              "type": "color"
+            },
+            "type1": {
+              "value": "$colors.global.amber.700",
+              "type": "color"
+            },
+            "type2": {
+              "value": "$colors.global.amber.600",
+              "type": "color"
+            },
+            "type3": {
+              "value": "$colors.global.amber.500",
+              "type": "color"
+            },
+            "type4": {
+              "value": "$colors.global.amber.300",
+              "type": "color"
+            },
+            "type5": {
+              "value": "$colors.global.amber.200",
+              "type": "color"
+            }
           }
         },
         "modals": {
