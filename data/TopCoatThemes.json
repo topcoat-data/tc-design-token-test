@@ -2159,6 +2159,60 @@
               "type": "color"
             }
           }
+        },
+        "alerts": {
+          "fill": {
+            "white": {
+              "value": "$colors.global.light.100",
+              "type": "color"
+            },
+            "success": {
+              "value": "rgba($colors.theme.system.green, 0.05)",
+              "type": "color"
+            },
+            "warning": {
+              "value": "rgba($colors.theme.system.yellow, 0.05)",
+              "type": "color"
+            },
+            "error": {
+              "value": "rgba($colors.theme.system.red, 0.05)",
+              "type": "color"
+            },
+            "info": {
+              "value": "rgba($colors.theme.primary.default, 0.05)",
+              "type": "color"
+            }
+          },
+          "text": {
+            "primary": {
+              "value": "$colors.theme.text.dark.primary",
+              "type": "color"
+            },
+            "secondary": {
+              "value": "$colors.theme.text.dark.secondary",
+              "type": "color"
+            },
+            "tertiary": {
+              "value": "$colors.theme.text.dark.tertiary",
+              "type": "color"
+            },
+            "success": {
+              "value": "$colors.theme.system.green",
+              "type": "color"
+            },
+            "warning": {
+              "value": "$colors.theme.system.yellow",
+              "type": "color"
+            },
+            "error": {
+              "value": "$colors.theme.system.red",
+              "type": "color"
+            },
+            "info": {
+              "value": "$colors.theme.primary.default",
+              "type": "color"
+            }
+          }
         }
       }
     },
