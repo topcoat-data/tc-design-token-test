@@ -2213,6 +2213,28 @@
               "type": "color"
             }
           }
+        },
+        "tooltip": {
+          "fill": {
+            "white": {
+              "value": "$colors.global.light.100",
+              "type": "color"
+            }
+          },
+          "text": {
+            "primary": {
+              "value": "$colors.theme.text.dark.primary",
+              "type": "color"
+            },
+            "secondary": {
+              "value": "$colors.theme.text.dark.secondary",
+              "type": "color"
+            },
+            "tertiary": {
+              "value": "$colors.theme.text.dark.tertiary",
+              "type": "color"
+            }
+          }
         }
       }
     },
