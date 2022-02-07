@@ -2253,6 +2253,24 @@
               "type": "color"
             }
           }
+        },
+        "loader": {
+          "fill": {
+            "line": {
+              "value": "conic-gradient($colors.theme.primary.default,rgba($colors.theme.primary.default, 0))",
+              "type": "color"
+            },
+            "main": {
+              "value": "$colors.theme.primary.default",
+              "type": "color"
+            }
+          },
+          "text": {
+            "primary": {
+              "value": "$colors.theme.text.dark.primary",
+              "type": "color"
+            }
+          }
         }
       }
     },
