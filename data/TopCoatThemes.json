@@ -2285,6 +2285,26 @@
             "tertiary": {
               "value": "$colors.theme.text.dark.tertiary",
               "type": "color"
+            },
+            "quaternary": {
+              "value": "$colors.theme.text.dark.quaternary",
+              "type": "color"
+            },
+            "active-default": {
+              "value": "$colors.theme.primary.default",
+              "type": "color"
+            },
+            "active-hover": {
+              "value": "$colors.theme.primary.light",
+              "type": "color"
+            },
+            "active-focus": {
+              "value": "$colors.theme.primary.dark",
+              "type": "color"
+            },
+            "active-disabled": {
+              "value": "rgba({colors.theme.button.primary.fill.default}, 0.50)",
+              "type": "color"
             }
           }
         }
