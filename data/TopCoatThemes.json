@@ -2235,6 +2235,24 @@
               "type": "color"
             }
           }
+        },
+        "progress-bars": {
+          "fill": {
+            "background": {
+              "value": "$colors.global.dark.8",
+              "type": "color"
+            },
+            "forground": {
+              "value": "$colors.theme.primary.default",
+              "type": "color"
+            }
+          },
+          "text": {
+            "primary": {
+              "value": "$colors.theme.text.dark.primary",
+              "type": "color"
+            }
+          }
         }
       }
     },
