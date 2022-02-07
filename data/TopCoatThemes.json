@@ -3315,6 +3315,10 @@
       "pin": {
         "value": "$borderRadius.rounded-full",
         "type": "borderRadius"
+      },
+      "progress-bar": {
+        "value": "$borderRadius.rounded-full",
+        "type": "borderRadius"
       }
     },
     "themeBorderWidth": {
