@@ -2410,6 +2410,16 @@
               "value": "$colors.theme.text.dark.tertiary",
               "type": "color"
             }
+          },
+          "line": {
+            "incomplete": {
+              "value": "$colors.global.dark.8",
+              "type": "color"
+            },
+            "completed": {
+              "value": "$colors.theme.primary.default",
+              "type": "color"
+            }
           }
         }
       }
