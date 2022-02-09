@@ -2370,11 +2370,11 @@
             },
             "fill": {
               "incomplete": {
-                "value": "$colors.global.light.4",
+                "value": "$colors.global.light.100",
                 "type": "color"
               },
               "current": {
-                "value": "$colors.global.light.4",
+                "value": "$colors.global.light.100",
                 "type": "color"
               },
               "completed": {
