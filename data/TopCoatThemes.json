@@ -3477,6 +3477,10 @@
       "progress-bar": {
         "value": "$borderRadius.rounded-full",
         "type": "borderRadius"
+      },
+      "steps": {
+        "value": "$borderRadius.rounded-full",
+        "type": "borderRadius"
       }
     },
     "themeBorderWidth": {
@@ -3493,6 +3497,10 @@
         "type": "borderWidth"
       },
       "line-chart": {
+        "value": "2",
+        "type": "borderWidth"
+      },
+      "steps": {
         "value": "2",
         "type": "borderWidth"
       }
