@@ -2344,12 +2344,70 @@
               "value": "$colors.theme.text.dark.tertiary",
               "type": "color"
             }
-          }
-        },
-        " accordian": {
+          },
           "fill": {
             "background": {
               "value": "$colors.global.dark.2",
+              "type": "color"
+            }
+          }
+        },
+        "steps": {
+          "circle": {
+            "symbol": {
+              "incomplete": {
+                "value": "$colors.theme.text.dark.secondary",
+                "type": "color"
+              },
+              "current": {
+                "value": "$colors.theme.primary.default",
+                "type": "color"
+              },
+              "completed": {
+                "value": "$colors.global.light.100",
+                "type": "color"
+              }
+            },
+            "fill": {
+              "incomplete": {
+                "value": "$colors.global.light.4",
+                "type": "color"
+              },
+              "current": {
+                "value": "$colors.global.light.4",
+                "type": "color"
+              },
+              "completed": {
+                "value": "$colors.theme.primary.default",
+                "type": "color"
+              }
+            },
+            "border": {
+              "incomplete": {
+                "value": "$colors.global.dark.8",
+                "type": "color"
+              },
+              "current": {
+                "value": "$colors.theme.primary.default",
+                "type": "color"
+              },
+              "completed": {
+                "value": "$colors.theme.primary.default",
+                "type": "color"
+              }
+            }
+          },
+          "text": {
+            "primary": {
+              "value": "$colors.theme.text.dark.primary",
+              "type": "color"
+            },
+            "secondary": {
+              "value": "$colors.theme.text.dark.secondary",
+              "type": "color"
+            },
+            "tertiary": {
+              "value": "$colors.theme.text.dark.tertiary",
               "type": "color"
             }
           }
