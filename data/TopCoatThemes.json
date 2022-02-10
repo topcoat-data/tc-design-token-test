@@ -2439,7 +2439,7 @@
           },
           "line": {
             "line": {
-              "value": "$colors.theme.picker.divider",
+              "value": "$colors.global.dark.4",
               "type": "color"
             }
           },
