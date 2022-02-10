@@ -2437,16 +2437,38 @@
               "type": "color"
             }
           },
-          "fill": {
+          "line": {
             "line": {
               "value": "$colors.theme.picker.divider",
               "type": "color"
-            },
-            "gray-background": {
+            }
+          },
+          "monochrome": {
+            "fill": {
               "value": "$colors.global.dark.4",
               "type": "color"
             },
-            "white-background": {
+            "icon": {
+              "value": "$colors.theme.text.dark.secondary",
+              "type": "color"
+            }
+          },
+          "comment": {
+            "fill": {
+              "value": "$colors.global.light.100",
+              "type": "color"
+            },
+            "icon": {
+              "value": "$colors.theme.text.dark.secondary",
+              "type": "color"
+            }
+          },
+          "color": {
+            "fill": {
+              "value": "$colors.theme.primary.default",
+              "type": "color"
+            },
+            "icon": {
               "value": "$colors.global.light.100",
               "type": "color"
             }
