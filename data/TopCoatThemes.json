@@ -2242,7 +2242,7 @@
               "value": "$colors.global.dark.8",
               "type": "color"
             },
-            "forground": {
+            "foreground": {
               "value": "$colors.theme.primary.default",
               "type": "color"
             }
@@ -2308,7 +2308,7 @@
             }
           }
         },
-        "Â lists": {
+        "lists": {
           "text": {
             "primary": {
               "value": "$colors.theme.text.dark.primary",
@@ -2472,6 +2472,20 @@
               "value": "$colors.global.light.100",
               "type": "color"
             }
+          }
+        },
+        "slider": {
+          "thumb": {
+            "value": "$colors.theme.primary.default",
+            "type": "color"
+          },
+          "background": {
+            "value": "$colors.global.dark.8",
+            "type": "color"
+          },
+          "foreground": {
+            "value": "$colors.theme.primary.default",
+            "type": "color"
           }
         }
       }
