@@ -2476,7 +2476,7 @@
         },
         "slider": {
           "thumb": {
-            "value": "$colors.theme.primary.default",
+            "value": "$colors.global.light.100",
             "type": "color"
           },
           "background": {
