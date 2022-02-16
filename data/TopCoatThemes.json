@@ -1093,6 +1093,10 @@
             "value": "$colors.global.pink.500",
             "type": "color"
           },
+          "pink-copy": {
+            "value": "$colors.global.pink.500",
+            "type": "color"
+          },
           "cyan": {
             "value": "$colors.global.cyan.500",
             "type": "color"
